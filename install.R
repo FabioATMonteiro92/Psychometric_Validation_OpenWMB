@@ -13,3 +13,4 @@ if (length(to_install)) install.packages(to_install)
 
 # Register the R kernel for Jupyter
 IRkernel::installspec(user = FALSE)
+
