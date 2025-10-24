@@ -2,9 +2,14 @@ name: r-env
 channels:
   - conda-forge
 dependencies:
+  # Python (Binder still expects a Python kernel, keep it)
   - python=3.10
+
+  # R language and Jupyter kernel for R
   - r-base
   - r-irkernel
+
+  # Your analysis packages (conda-forge R packages are prefixed r-<pkgname>)
   - r-here
   - r-readxl
   - r-dplyr
