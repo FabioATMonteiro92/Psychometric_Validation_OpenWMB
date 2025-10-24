@@ -1,15 +1,14 @@
-name: r-env
+name: psychwm
 channels:
   - conda-forge
 dependencies:
-  # Python (Binder still expects a Python kernel, keep it)
   - python=3.10
 
-  # R language and Jupyter kernel for R
+  # R runtime + Jupyter kernel
   - r-base
   - r-irkernel
 
-  # Your analysis packages (conda-forge R packages are prefixed r-<pkgname>)
+  # R packages you use
   - r-here
   - r-readxl
   - r-dplyr
@@ -22,6 +21,5 @@ dependencies:
   - r-mvn
   - r-mice
   - r-openxlsx
-  - r-simsem
   - r-sjmisc
   - r-semplot
