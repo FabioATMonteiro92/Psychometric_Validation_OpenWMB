@@ -1,0 +1,22 @@
+name: r-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - r-base
+  - r-irkernel
+  - r-here
+  - r-readxl
+  - r-dplyr
+  - r-tidyr
+  - r-tibble
+  - r-knitr
+  - r-rmarkdown
+  - r-psych
+  - r-semtools
+  - r-mvn
+  - r-mice
+  - r-openxlsx
+  - r-simsem
+  - r-sjmisc
+  - r-semplot
